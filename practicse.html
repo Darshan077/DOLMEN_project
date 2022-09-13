@@ -1,0 +1,109 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is practise session</title>
+    <style>
+      /* P{
+            
+            
+          
+          line-height: 2pem;
+          font-weight:bold;
+        } */
+
+      #para {
+        background-color: aqua;
+        font-style: oblique;
+        color: blueviolet;
+        border-radius: 5px;
+        border-color: blue;
+        border-style: solid;
+        width: 999px;
+        height: 234px;
+        text-align: left;
+      }
+
+      #Para2 {
+        border: 5px solid rgb(255, 22, 14);
+        background-image: url("photo3.jpg");
+        color: rgb(0, 0, 0);
+        width: 1204px;
+        height: 1234px;
+        text-align: center;
+        background-size: auto;
+        background-repeat: no-repeat;
+        /* background-position: -857px -264px ; */
+        /* background-position-y: center;
+            background-position-x:left; */
+        background-position: center center;
+      }
+
+      h3 {
+        border: 2px solid red;
+        background-color: antiquewhite;
+        width: 1204px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <center>
+      <h2>Practise session</h2>
+      <hr size="4" noshade />
+      <p id="para">
+        This is practise session, please focus on our work that gives motivation
+        to became web developer, please go through all the classess by code with
+        harry in youtube channnel he is the best instructor for all the front
+        end development part and also go through anglea udemy web development
+        course i.e, best in udemy, u have very limited time so please focus on
+        our work
+
+        <span>this is span sentence</span>
+      </p>
+    </center>
+
+    <h3>this is second paragraph</h3>
+
+    <p id="Para2">
+      <strong> this is one division why this is not coming? </strong>
+    </p>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button
+      type="button"
+      onclick='document.getElementById("Para2").innerHTML = "Hello JavaScript!"'
+    >
+      Click Me!
+    </button>
+
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <script>
+      var str = "this is the string in this build";
+      console.log(str);
+
+      var position = str.indexOf("build");
+      console.log(position);
+
+      var substr = str.slice(1, 10);
+      console.log(substr);
+
+      var substr = str.substring();
+      console.log;
+
+      console.log(str.toUpperCase());
+
+      var stringwithwhitespaces =
+        "    this string     contains lot of spaces        ";
+      console.log(stringwithwhitespaces.trim());
+    </script>
+  </body>
+</html>
